@@ -531,6 +531,14 @@ form {
     "footer";
 }
 
+header h1 {
+  -webkit-text-stroke-width: 2px;
+}
+
+header h2 {
+  -webkit-text-stroke-width: 1.25px;
+}
+
 .info {
   display: grid;
   grid-template-columns: 10% auto;
@@ -632,21 +640,11 @@ form {
 }
   
 header h1 {
-  font-size: 5vw;
-  text-align: center;
-  margin: 0;
-  color: white;
-  -webkit-text-stroke-width: 1.5px;
-  -webkit-text-stroke-color: #0196D7;
+  -webkit-text-stroke-width: 2.5px;
 }
 
 header h2 {
-  font-size: 2vw;
-  text-align: right;
-  margin: 0;
-  color: white;
-  -webkit-text-stroke-width: 0.75px;
-  -webkit-text-stroke-color: #0196D7;
+  -webkit-text-stroke-width: 1.75px;
 }
 
 nav {
@@ -700,18 +698,6 @@ nav {
 
 .second:hover .subnav-content, .third:hover .subnav-content {
   display: block;
-}
-
-header h1 {
-  color: white;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #0196D7;
-}
-
-header h2 {
-  color: white;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: #0196D7;
 }
 
 nav {
